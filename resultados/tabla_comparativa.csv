@@ -1,0 +1,20 @@
+,CNN desde cero,VGG-16 feature extractor,VGG-16 fine-tuning
+iteración,C4,F2,T6
+resolución,32x32,224x224,224x224
+params totales M,5.21,134.3,134.3
+params entrenables M,5.21,119.59,134.04
+GMACs inferencia,0.21,15.466,15.466
+GFLOPs inferencia,0.42,30.932,30.932
+latencia ms/img,0.79,1.28,1.28
+s/epoch,1.6,31.0,55.4
+epoch mejor val,40,8,8
+epochs totales,40,8,8
+tiempo total s,64.6,247.8,443.3
+memoria pico MB,993,6354,6011
+PFLOPs entrenamiento,2.27,11.31,26.62
+test acc,0.9292,0.8953,0.942
+test precision,0.9291,0.8953,0.9418
+test recall,0.9292,0.8953,0.942
+test F1,0.9291,0.8952,0.9419
+test acc 10 %,0.7255,0.8415,0.8854
+test F1 10 %,0.7253,0.8407,0.885
